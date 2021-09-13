@@ -2,7 +2,7 @@
 """
 Created on Tue Sep  7 16:37:54 2021
 
-@author: Z440
+@author: louis76013@gmail.com
 """
 
 #import json
@@ -171,5 +171,3 @@ def highlight_month(clickData):
 
 if __name__ == '__main__':
     app.run_server(debug=False)
-#    app.run_server(host='103.17.10.34',debug=False)
-
