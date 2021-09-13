@@ -74,10 +74,10 @@ dfp = dfp[dfp['Open']!=0]
 dfp['Date2'] = ''
 # print(dfp)
 
-print(dfp.dtypes)
+# print(dfp.dtypes)
 dfp['Start'] = dfp['Start'].astype(str).str[:8]
 dfp['Date2'] = dfp['Start'].astype(str)+'-'+dfp['Exp'].astype(str)
-print(dfp)
+# print(dfp)
 # sys.exit()
 
 # ========== subplot
